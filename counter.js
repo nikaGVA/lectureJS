@@ -3,6 +3,7 @@
 const print = () => {
   console.log("ehheh")
 }
+console.log("sasadwd")
 
 print()
 

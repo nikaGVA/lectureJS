@@ -14,7 +14,11 @@ console.log('\n')
 let cars = ['ford', 'opel', 'mitsubishi','BMW','mercedes'];
 let price = [2000, 10000, 15000, 1700, 12340];
 
+
+
+
 let myArr = [];
+
 for(let i = 0; i<5; i++){
   myArr[i] = {
     "car":cars[i],
@@ -22,6 +26,11 @@ for(let i = 0; i<5; i++){
   }
 }
 console.log(myArr)
+
+
+
+
+
 
 console.log("\n")
 
@@ -31,9 +40,7 @@ console.log(filter)
 console.log('\n')
 
 
-
 myArr.map((data) => {
-  let saleprice = data.price + 90/100;
-  return [...data,...saleprice]
+  return data.salePrice = data.price * 90/100
 })
 console.log(myArr)
